@@ -1,0 +1,30 @@
+.hero {
+  width: 100%;
+  height: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background: linear-gradient(($hero-one), ($hero-two) 80%),
+  url('../img/hero-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 3.5rem;
+    margin: 0;
+    padding: 0;
+    color: $white;
+  }
+
+  @media (min-width: 992px) {
+    height: 100vh;
+    h1 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 5.5rem;
+      line-height: 5rem;
+    }
+  }
+}
