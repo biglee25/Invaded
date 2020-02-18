@@ -40,6 +40,8 @@
     }
   });
 
+
+
 })(jQuery); // End of use strict
 
 // Disable Google Maps scrolling
@@ -62,3 +64,7 @@ var onMapClickHandler = function(event) {
 }
 // Enable map zooming with mouse scroll when the user clicks the map
 $('.map').on('click', onMapClickHandler);
+
+// Scroll function courtesy of Scott Dowding; http://stackoverflow.com/questions/487073/check-if-element-is-visible-after-scrolling
+
+
