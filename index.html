@@ -278,16 +278,16 @@
   <!-- Form -->
     <div class="container text-center">
       <p class="pb-5">If you have any questions or you just want to say hello, please fill in the form and we will get right back to you.</p>
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" netlify>
             <div class="form-row pb-3">
                 <div class="form-group col-12">
-                  <input type="name" class="form-control py-4" id="inputName" placeholder="Name">
+                  <input type="name" name="name" class="form-control py-4" id="inputName" placeholder="Name">
                 </div>
                 <div class="form-group col-12">
-                  <input type="email" class="form-control py-4" id="inputEmail" placeholder="Email">
+                  <input type="email" name="email" class="form-control py-4" id="inputEmail" placeholder="Email">
                 </div>
                 <div class="form-group col-12">
-                  <textarea class="form-control py-3" id="inputMessage" rows="3" placeholder="Message"></textarea>
+                  <textarea class="form-control py-3" name="message" id="inputMessage" rows="3" placeholder="Message"></textarea>
                 </div>
                 <div class="container text-right">
                   <div class="row">
