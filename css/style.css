@@ -69,6 +69,12 @@ h6 {
   font-weight: 900;
 }
 
+.highlight {
+  background: rgba(255, 255, 255, 0);
+
+}
+
+
 @media (max-width: 992px) {
   .map {
     height: 75%;
